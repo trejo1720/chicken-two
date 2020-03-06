@@ -21,6 +21,10 @@ data set has chicken weights and 4 variables:
 Idea is to determine which of the variables affect chicken weight 
 The weight and time to run are numerical variables, gender and feed type are categorical variables
 
+$Ho$ Variables feed,speed,& gender have noaffect on chicken weight.
+
+$Ha$ At least one of the variables affect the chicken's weight. 
+
 So we'll use templatesRMD Cat Numerical, look for the section that has an 'aov'
 
 <!-- This question is like a bunch of t-tests, but instead of doing the t-test a bunch of times we use ANOVA to do all the comparisons at once!  !-->
@@ -40,13 +44,16 @@ attach(chickenData)
 Boxplot of weight based on feed 
 
 ```{r}
-plot(weight~feed,data=chickenData)
+boxplot(weight~feed,data=chickenData)
 ```
 
+It appears feed type has an affect. Sunflower appeared to be the best.
 
 
 
 ### Numerical summary
+
+
 
 
 
