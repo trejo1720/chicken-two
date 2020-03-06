@@ -71,7 +71,7 @@ This is a summary on all the data in the chickendata.
 ```{r}
 model1=lm(weight~feed+speed+sex,data=chickenData)
 anova(model1)
-```
+``` 
 This anova says only feed affects chicken weigh.
 
 ###  Conclusions  -- which variables affect chicken weight?
