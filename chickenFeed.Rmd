@@ -57,8 +57,11 @@ There appears that there is no relation between speed and weight/
  
 ### Numerical summary
 
+```{r}
+summary(chickenData)
+```
 
-
+This is a summary on all the data in the chickendata.
 
 
 
