@@ -54,7 +54,7 @@ plot(weight~speed,data=chickenData)
 ```
 
 There appears that there is no relation between speed and weight/
-
+ 
 ### Numerical summary
 
 
