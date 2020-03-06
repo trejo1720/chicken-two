@@ -76,6 +76,6 @@ This anova says only feed affects chicken weigh.
 
 ###  Conclusions  -- which variables affect chicken weight?
 
-Here is my brilliant conclusion
+I can now conclude that the only variables that affect chicken weight is the feed. 
  
 
