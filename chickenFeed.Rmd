@@ -49,9 +49,15 @@ boxplot(weight~feed,data=chickenData)
 
 It appears feed type has an affect. Sunflower appeared to be the best.
 
+```{r}
+plot(weight~speed,data=chickenData)
+```
 
+There appears that there is no relation between speed and weight/
 
 ### Numerical summary
+
+
 
 
 
